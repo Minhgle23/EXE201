@@ -1,0 +1,67 @@
+{
+  "name": "ecommer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.3",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "font-awesome": "^4.7.0",
+    "googleapis": "^140.0.1",
+    "http-proxy-middleware": "^3.0.3",
+    "json-server": "^1.0.0-beta.1",
+    "moment": "^2.30.1",
+    "nodemailer": "^6.9.14",
+    "qs": "^6.14.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-chartjs-2": "^5.2.0",
+    "react-dev-utils": "^12.0.1",
+    "react-dom": "^18.3.1",
+    "react-fontawesome": "^1.7.1",
+    "react-icons": "^5.2.1",
+    "react-loading-skeleton": "^3.4.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
+    "recharts": "^2.12.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

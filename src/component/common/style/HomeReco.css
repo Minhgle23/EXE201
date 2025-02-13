@@ -1,0 +1,72 @@
+.product-card {
+  width: 100%;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+  height: 250px;
+  object-fit: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.product-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #343a40;
+  margin-top: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.category-link {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 70px;
+}
+
+.category-link:hover {
+  color: #343a40;
+  text-decoration: none; /* Remove underline on hover */
+  border-radius: 70px;
+}
+
+.category-link.active,
+.category-link:focus {
+  background-color: #6c757d !important;
+  color: white !important;
+  border-radius: 70px;
+}
+
+.btn-outline-dark {
+  border: 2px solid #343a40;
+  color: #343a40;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #343a40;
+  color: white;
+}

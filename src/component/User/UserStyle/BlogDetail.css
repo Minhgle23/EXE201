@@ -1,0 +1,63 @@
+/* BlogDetail.css */
+
+.blog-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .blog-card {
+    border: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .blog-card:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  .blog-image {
+    height: 500px;
+    object-fit: contain;
+  }
+  
+  .blog-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-date {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .blog-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+  }
+  
+  .react-quill-custom {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .react-quill-custom h1, 
+  .react-quill-custom h2, 
+  .react-quill-custom h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .react-quill-custom p {
+    margin-bottom: 1rem;
+  }
+  
+  .react-quill-custom img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }

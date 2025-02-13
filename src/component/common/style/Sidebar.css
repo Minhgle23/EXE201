@@ -1,0 +1,61 @@
+/* Sidebar.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #layoutSidenav_nav {
+    background-color: #343a40;
+    color: white;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .sb-sidenav-menu {
+    padding: 1rem;
+  }
+  
+  .nav-link {
+    color: #adb5bd;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }
+  
+  .sb-nav-link-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .sb-sidenav-collapse-arrow {
+    margin-left: auto;
+  }
+  
+  .collapse {
+    display: none;
+  }
+  
+  .collapse.show {
+    display: block;
+  }
+  
+  .sb-sidenav-footer {
+    padding: 1rem;
+    background-color: #23272b;
+  }
+  
+  .sb-sidenav-menu-heading {
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #6c757d;
+  }
+  
+  .sb-sidenav-menu-nested .nav-link {
+    padding-left: 2rem;
+  }
+  

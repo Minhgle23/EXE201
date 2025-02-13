@@ -1,0 +1,54 @@
+.signup-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 1000px;
+    /* height: 600px; */
+  }
+  
+  h2 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    padding-left: 0;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+  }
+  
+  .form-control::placeholder {
+    color: #6c757d;
+  }
+  
+  .terms-link {
+    color: #242b33;
+
+  }
+  
+  .register-btn {
+    background-color: #dc3545;
+    border: none;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .member-link {
+    color: #181b1f;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .signup-container {
+      width: 95%;
+    }
+  }

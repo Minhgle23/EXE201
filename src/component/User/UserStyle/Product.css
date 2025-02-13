@@ -1,0 +1,140 @@
+/* Product.css */
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.breadcrumb {
+  padding: 0;
+  background-color: transparent;
+  margin-bottom: 1.5rem;
+  margin-top: 10px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: #6c757d;
+}
+
+.breadcrumb-item a {
+  color: #6c757d;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.breadcrumb-item.active {
+  color: #212529;
+}
+
+.category-sidebar{
+  padding: 20px;
+}
+.category-sidebar h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.category-sidebar ul {
+  padding-left: 0;
+}
+
+.category-sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+.form-check{
+  border-bottom: 1px solid rgb(211, 205, 205);
+  
+}
+.form-check-input {
+  margin-top: 0.3rem;
+ 
+}
+
+.form-check-label {
+  margin-left: 0.5rem;
+  color: #6c757d;
+  margin-bottom: 5px;   
+}
+.form-check-input:checked{
+  background-color: #212529;
+  border: #212529
+}
+.form-check-input:checked + .form-check-label {
+  color: #212529;
+}
+.category-sidebar {
+    position: sticky;
+    top: 20px;
+  }
+  
+  .card-image-wrapper {
+    /* height: 200px; */
+
+  }
+  
+  .card-image-wrapper img {
+    /* width: 100%; */
+    /* height: 100%; */
+    object-fit: contain;
+  }
+  
+  .product-toolbar {
+    /* margin-bottom: 1.5rem; */
+  }
+  
+  .product-toolbar .view-options button {
+    margin-right: 0.5rem;
+  }
+  
+  .product-toolbar .sort-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-toolbar .sort-options label {
+    margin-right: 0.5rem;
+    font-weight: 500;
+    color: #6c757d;
+  }
+  
+  .product-toolbar .sort-options select {
+    /* margin-right: 1rem; */
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    color: #495057;
+  }
+  
+  
+  @media (max-width: 991px) {
+    .category-sidebar {
+      position: static;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .sort-options {
+      /* width: 100%; */
+    }
+    
+    .sort-options .form-select {
+      /* width: 100%; */
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .card {
+      flex-direction: column !important;
+    }
+  
+    .card-image-wrapper {
+      height: 250px;
+    }
+  }

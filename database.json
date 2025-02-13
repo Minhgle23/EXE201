@@ -1,0 +1,1084 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Gạo ST25 5KG",
+      "price": "8.51",
+      "description": "",
+      "category": 4,
+      "quantity": 6,
+      "image": "gaost25.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Gạo Sèng Cú 10KG",
+      "price": "16.6",
+      "description": "",
+      "category": 4,
+      "quantity": 7,
+      "image": "gaosengcu.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Măng Củ 1KG",
+      "price": "10.5",
+      "description": "Măng khô củ là phần củ của cây măng (thường là măng tre, măng bát độ, hoặc măng giang) được sơ chế và phơi khô để bảo quản lâu dài",
+      "category": 3,
+      "quantity": 10,
+      "image": "mangcukho.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Gạo Tám Thơm 5KG",
+      "price": "7.1",
+      "description": "",
+      "category": 4,
+      "quantity": 10,
+      "image": "gao-tam-thom-hai-hau.png"
+    },
+    {
+      "id": "5",
+      "title": " Gạo Bắc Hương 5G",
+      "price": "7.2",
+      "description": "",
+      "category": 4,
+      "quantity": 5,
+      "image": "OIP.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Măng Lá 1KG",
+      "price": "13.75",
+      "description": "",
+      "category": 3,
+      "quantity": 10,
+      "image": "mangla.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Măng Rối 1KG",
+      "price": "9.3",
+      "description": "",
+      "category": 3,
+      "quantity": 10,
+      "image": "mang roi.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Măng Nứa 1KG",
+      "price": 225000,
+      "description": "",
+      "category": 3,
+      "quantity": 0,
+      "image": "R.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Bánh Dậu Xanh(1 hộp)",
+      "price": "9.375",
+      "description": "",
+      "category": 2,
+      "quantity": 0,
+      "image": "banhdauxanh.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Ô mai sấu",
+      "price": "3.125",
+      "description": "",
+      "category": 1,
+      "quantity": 0,
+      "image": "O-mai-sau-3.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Ô mai mận",
+      "price": "3.125",
+      "description": "",
+      "category": 1,
+      "quantity": 0,
+      "image": "R (1).jpg"
+    },
+    {
+      "id": "12",
+      "title": "Ô mai xí muội",
+      "price": "3.5",
+      "description": "",
+      "category": 1,
+      "quantity": 0,
+      "image": "omaiximuoi.webp"
+    }
+  ],
+  "categories": [
+    {
+      "cateid": 1,
+      "name": "Ô mai",
+      "id": "9922"
+    },
+    {
+      "cateid": 2,
+      "name": "Bánh đậu xanh",
+      "id": "fd5b"
+    },
+    {
+      "cateid": 3,
+      "name": "Măng khô",
+      "id": "664e"
+    },
+    {
+      "cateid": 4,
+      "name": "Gạo",
+      "id": "f8b4"
+    }
+  ],
+  "carts": [
+    {
+      "userId": 2,
+      "totalProducts": [
+        {
+          "product": {
+            "id": "13",
+            "title": "Ô mai xí muội",
+            "price": 81,
+            "description": "",
+            "category": 1,
+            "image": "omaiximuoi.webp"
+          },
+          "quantity": 2
+        }
+      ],
+      "id": "950b"
+    },
+    {
+      "userId": 991,
+      "totalProducts": [],
+      "id": "3fbf"
+    }
+  ],
+  "users": [
+    {
+      "address": {
+        "city": "kilcoole",
+        "street": "new road"
+      },
+      "id": "1",
+      "email": "john@gmail.com",
+      "username": "johnd",
+      "password": "m38rmF",
+      "name": {
+        "firstname": "john",
+        "lastname": "doe"
+      },
+      "phone": "1-570-236-7033",
+      "role": "USER"
+    },
+    {
+      "address": {
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "state": "",
+        "zip": "456789"
+      },
+      "id": "2",
+      "email": "morrison@gmail.com",
+      "username": "mor_2314",
+      "password": "83r5^_",
+      "name": {
+        "firstname": "david",
+        "lastname": "morrison"
+      },
+      "phone": "1-570-236-7033",
+      "role": "USER"
+    },
+    {
+      "address": {
+        "city": "Cullmanh canh hẹ",
+        "street": "Frances Ct"
+      },
+      "id": "3",
+      "email": "kevin@gmail.com",
+      "username": "kevinryan",
+      "password": "kev02937",
+      "name": {
+        "firstname": "kevin",
+        "lastname": "ryan"
+      },
+      "phone": "1-567-094-1345",
+      "role": "ADMIN"
+    },
+    {
+      "address": {
+        "city": "San Antonio",
+        "street": "Hunters Creek Dr"
+      },
+      "id": "4",
+      "email": "don@gmail.com",
+      "username": "donero",
+      "password": "ewedon",
+      "name": {
+        "firstname": "don",
+        "lastname": "romer"
+      },
+      "phone": "1-765-789-6734",
+      "role": "USER"
+    },
+    {
+      "address": {
+        "city": "",
+        "street": ""
+      },
+      "email": "thanhanbbnss@gmail.com",
+      "username": "hehe12",
+      "password": "thanh12",
+      "name": {
+        "firstname": "an",
+        "lastname": "nguyễn"
+      },
+      "phone": "0981271769",
+      "role": "USER",
+      "id": "oNIIj-a"
+    },
+    {
+      "id": "991d",
+      "address": {
+        "city": "",
+        "street": ""
+      },
+      "email": "minhlv23022812@gmail.com",
+      "username": "minhlv",
+      "password": "@1Abcd",
+      "name": {
+        "firstname": "Lê",
+        "lastname": "Minh"
+      },
+      "phone": "3303248688",
+      "role": "USER"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1721720417473",
+      "productId": null,
+      "ratings": [
+        {
+          "userId": "3",
+          "rate": 5
+        },
+        {
+          "userId": "1",
+          "rate": 5
+        }
+      ],
+      "comments": [
+        {
+          "id": "1721720417430",
+          "text": "sản phẩm dùng tốt\n",
+          "userId": "2",
+          "username": "Thành phạm",
+          "date": "7/23/2024"
+        }
+      ]
+    },
+    {
+      "id": "1722396294734",
+      "productId": null,
+      "ratings": [
+        {
+          "userId": "3",
+          "rate": 4
+        }
+      ],
+      "comments": []
+    }
+  ],
+  "detailOrders": [
+    {
+      "id": "23095808",
+      "OrderDate": "2024-07-22 09:58:08",
+      "Amount": 503520,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A23095808",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "1",
+        "name": {
+          "firstname": "john",
+          "lastname": "doe"
+        },
+        "email": "john@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "new road"
+        }
+      },
+      "products": [
+        {
+          "id": "7",
+          "title": "White Gold Plated Princess",
+          "price": 9.99,
+          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+          "userQuantity": 2
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "23095934",
+      "OrderDate": "2024-07-22 09:59:34",
+      "Amount": 767280,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A23095934",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "4",
+        "name": {
+          "firstname": "don",
+          "lastname": "romer"
+        },
+        "email": "don@gmail.com",
+        "phone": "1-765-789-6734",
+        "address": {
+          "city": "San Antonio",
+          "street": "Hunters Creek Dr"
+        }
+      },
+      "products": [
+        {
+          "id": "7",
+          "title": "White Gold Plated Princess",
+          "price": 9.99,
+          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+          "userQuantity": 2
+        },
+        {
+          "id": "8",
+          "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+          "price": 10.99,
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 30,
+          "userQuantity": 1
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "23100012",
+      "OrderDate": "2024-07-25 10:00:12",
+      "Amount": 8688000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A23100012",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "4",
+        "name": {
+          "firstname": "don",
+          "lastname": "romer"
+        },
+        "email": "don@gmail.com",
+        "phone": "1-765-789-6734",
+        "address": {
+          "city": "San Antonio",
+          "street": "Hunters Creek Dr"
+        }
+      },
+      "products": [
+        {
+          "id": "6",
+          "title": "Solid Gold Petite Micropave",
+          "price": 168,
+          "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days. Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 30,
+          "userQuantity": 2
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "23143802",
+      "OrderDate": "2024-07-26 14:38:02",
+      "Amount": 1055040,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A23143802",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "7",
+          "title": "White Gold Plated Princess",
+          "price": 9.99,
+          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 30,
+          "userQuantity": 2
+        },
+        {
+          "id": "8",
+          "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+          "price": 10.99,
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 30,
+          "userQuantity": 2
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "23143807",
+      "OrderDate": "2024-07-27 14:38:07",
+      "Amount": 1055040,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A23143807",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "7",
+          "title": "White Gold Plated Princess",
+          "price": 9.99,
+          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 30,
+          "userQuantity": 2
+        },
+        {
+          "id": "8",
+          "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+          "price": 10.99,
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 30,
+          "userQuantity": 2
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "23143844",
+      "OrderDate": "2024-07-23 14:38:44",
+      "Amount": 767280,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A23143844",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "7",
+          "title": "White Gold Plated Princess",
+          "price": 9.99,
+          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+          "userQuantity": 2
+        },
+        {
+          "id": "8",
+          "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+          "price": 10.99,
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+          "userQuantity": 1
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "24094612",
+      "OrderDate": "2024-07-24 09:46:12",
+      "Amount": 8688000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A24094612",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "4",
+        "name": {
+          "firstname": "don",
+          "lastname": "romer"
+        },
+        "email": "don@gmail.com",
+        "phone": "1-765-789-6734",
+        "address": {
+          "city": "San Antonio",
+          "street": "Hunters Creek Dr"
+        }
+      },
+      "products": [
+        {
+          "id": "6",
+          "title": "Solid Gold Petite Micropave",
+          "price": 168,
+          "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days. Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+          "category": 2,
+          "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+          "userQuantity": 2
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "29100438",
+      "OrderDate": "2024-07-29 10:04:38",
+      "Amount": 503520,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A29100438",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "1",
+        "name": {
+          "firstname": "john",
+          "lastname": "doe"
+        },
+        "email": "john@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "new road"
+        }
+      },
+      "products": [
+        {
+          "id": "7",
+          "title": "White Gold Plated Princess",
+          "price": 9.99,
+          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+          "category": 2,
+          "image": "71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+          "quantity": 30,
+          "userQuantity": 2
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "29100517",
+      "OrderDate": "2024-07-29 10:05:17",
+      "Amount": 503520,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A29100517",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "1",
+        "name": {
+          "firstname": "john",
+          "lastname": "doe"
+        },
+        "email": "john@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "new road"
+        }
+      },
+      "products": [
+        {
+          "id": "7",
+          "title": "White Gold Plated Princess",
+          "price": 9.99,
+          "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+          "category": 2,
+          "image": "71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+          "userQuantity": 2
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "13165045",
+      "OrderDate": "2025-02-13 16:50:45",
+      "Amount": 2760000000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13165045",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "",
+        "name": {
+          "firstname": "Lê",
+          "lastname": "Minh"
+        },
+        "email": "sad@xn--ddds-5na.vom",
+        "phone": "3303248688",
+        "address": {
+          "city": "aaaaaaaaaa",
+          "street": "đá"
+        }
+      },
+      "products": [
+        {
+          "id": "9",
+          "title": "Bánh Dậu Xanh(1 hộp)",
+          "price": 115000,
+          "description": "",
+          "category": 2,
+          "quantity": 0,
+          "image": "banhdauxanh.jpg",
+          "userQuantity": 1
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "13165106",
+      "OrderDate": "2025-02-13 16:51:06",
+      "Amount": 2760000000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13165106",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "9",
+          "title": "Bánh Dậu Xanh(1 hộp)",
+          "price": 115000,
+          "description": "",
+          "category": 2,
+          "quantity": 0,
+          "image": "banhdauxanh.jpg",
+          "userQuantity": 1
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "13165117",
+      "OrderDate": "2025-02-13 16:51:17",
+      "Amount": 8280000000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13165117",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "9",
+          "title": "Bánh Dậu Xanh(1 hộp)",
+          "price": 115000,
+          "description": "",
+          "category": 2,
+          "image": "banhdauxanh.jpg",
+          "userQuantity": 3
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "13165207",
+      "OrderDate": "2025-02-13 16:52:07",
+      "Amount": 14280000000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13165207",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "9",
+          "title": "Bánh Dậu Xanh(1 hộp)",
+          "price": 115000,
+          "description": "",
+          "category": 2,
+          "image": "banhdauxanh.jpg",
+          "userQuantity": 3
+        },
+        {
+          "id": "3",
+          "title": "Măng Củ 1KG",
+          "price": 250000,
+          "description": "Măng khô củ là phần củ của cây măng (thường là măng tre, măng bát độ, hoặc măng giang) được sơ chế và phơi khô để bảo quản lâu dài",
+          "category": 3,
+          "quantity": 10,
+          "image": "mangcukho.jpg",
+          "userQuantity": 1
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "13170249",
+      "OrderDate": "2025-02-13 17:02:49",
+      "Amount": 14280000000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13170249",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "9",
+          "title": "Bánh Dậu Xanh(1 hộp)",
+          "price": 115000,
+          "description": "",
+          "category": 2,
+          "image": "banhdauxanh.jpg",
+          "userQuantity": 3
+        },
+        {
+          "id": "3",
+          "title": "Măng Củ 1KG",
+          "price": 250000,
+          "description": "Măng khô củ là phần củ của cây măng (thường là măng tre, măng bát độ, hoặc măng giang) được sơ chế và phơi khô để bảo quản lâu dài",
+          "category": 3,
+          "image": "mangcukho.jpg",
+          "userQuantity": 1
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "13170254",
+      "OrderDate": "2025-02-13 17:02:54",
+      "Amount": 14280000000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13170254",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "9",
+          "title": "Bánh Dậu Xanh(1 hộp)",
+          "price": 115000,
+          "description": "",
+          "category": 2,
+          "image": "banhdauxanh.jpg",
+          "userQuantity": 3
+        },
+        {
+          "id": "3",
+          "title": "Măng Củ 1KG",
+          "price": 250000,
+          "description": "Măng khô củ là phần củ của cây măng (thường là măng tre, măng bát độ, hoặc măng giang) được sơ chế và phơi khô để bảo quản lâu dài",
+          "category": 3,
+          "image": "mangcukho.jpg",
+          "userQuantity": 1
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "13171128",
+      "OrderDate": "2025-02-13 17:11:28",
+      "Amount": 3888000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13171128",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "13",
+          "title": "Ô mai xí muội",
+          "price": 81,
+          "description": "",
+          "category": 1,
+          "quantity": 0,
+          "image": "omaiximuoi.webp",
+          "userQuantity": 2
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "13171158",
+      "OrderDate": "2025-02-13 17:11:58",
+      "Amount": 3888000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13171158",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "2",
+        "name": {
+          "firstname": "david",
+          "lastname": "morrison"
+        },
+        "email": "morrison@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "Lovers Ln"
+        }
+      },
+      "products": [
+        {
+          "id": "13",
+          "title": "Ô mai xí muội",
+          "price": 81,
+          "description": "",
+          "category": 1,
+          "image": "omaiximuoi.webp",
+          "userQuantity": 2
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "13173604",
+      "OrderDate": "2025-02-13 17:36:04",
+      "Amount": 3888000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13173604",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "",
+        "name": {
+          "firstname": "Lê",
+          "lastname": "Minh"
+        },
+        "email": "sad@xn--ddds-5na.vom",
+        "phone": "3303248688",
+        "address": {
+          "city": "aaaaaaaaaa",
+          "street": "đá"
+        }
+      },
+      "products": [
+        {
+          "id": "13",
+          "title": "Ô mai xí muội",
+          "price": 81,
+          "description": "",
+          "category": 1,
+          "quantity": 0,
+          "image": "omaiximuoi.webp",
+          "userQuantity": 2
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "13202642",
+      "OrderDate": "2025-02-13 20:26:42",
+      "Amount": 3888000,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13202642",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "1",
+        "name": {
+          "firstname": "john",
+          "lastname": "doe"
+        },
+        "email": "john@gmail.com",
+        "phone": "1-570-236-7033",
+        "address": {
+          "city": "kilcoole",
+          "street": "new road"
+        }
+      },
+      "products": [
+        {
+          "id": "13",
+          "title": "Ô mai xí muội",
+          "price": 81,
+          "description": "",
+          "category": 1,
+          "quantity": 0,
+          "image": "omaiximuoi.webp",
+          "userQuantity": 2
+        }
+      ],
+      "status": true
+    },
+    {
+      "id": "13204442",
+      "OrderDate": "2025-02-13 20:44:42",
+      "Amount": 408480,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13204442",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "",
+        "name": {
+          "firstname": "Lê",
+          "lastname": "Minh"
+        },
+        "email": "sad@xn--ddds-5na.vom",
+        "phone": "3303248688",
+        "address": {
+          "city": "aaaaaaaaaa",
+          "street": "đá"
+        }
+      },
+      "products": [
+        {
+          "id": "1",
+          "title": "Gạo ST25 5KG",
+          "price": "8.51",
+          "description": "",
+          "category": 4,
+          "quantity": 6,
+          "image": "gaost25.jpg",
+          "userQuantity": 2
+        }
+      ],
+      "status": false
+    },
+    {
+      "id": "13210316",
+      "OrderDate": "2025-02-13 21:03:16",
+      "Amount": 408480,
+      "OrderInfo": "Thanh+toan+cho+ma+GD%3A13210316",
+      "bankCode": "ncb",
+      "customer": {
+        "id": "",
+        "name": {
+          "firstname": "Lê",
+          "lastname": "Minh"
+        },
+        "email": "sad@xn--ddds-5na.vom",
+        "phone": "3303248688",
+        "address": {
+          "city": "aaaaaaaaaa",
+          "street": "đá"
+        }
+      },
+      "products": [
+        {
+          "id": "1",
+          "title": "Gạo ST25 5KG",
+          "price": "8.51",
+          "description": "",
+          "category": 4,
+          "quantity": 6,
+          "image": "gaost25.jpg",
+          "userQuantity": 2
+        }
+      ],
+      "status": false
+    }
+  ],
+  "blog": [
+    {
+      "id": "1739246310933",
+      "title": "canh măng khô nấu gà",
+      "data": "<p><strong>Nguyên liệu:</strong></p><ul><li>200g măng khô</li><li>1/2 con gà ta (~1kg)</li><li>2 củ hành khô</li><li>1 nhánh gừng</li><li>Hành lá, rau mùi (ngò rí)</li><li>Gia vị: muối, tiêu, bột ngọt, nước mắm, dầu ăn</li></ul><p><strong>Cách làm:</strong></p><p><strong>Bước 1: Sơ chế măng khô</strong></p><ol><li>Ngâm măng khô trong nước sạch <strong>6-8 tiếng</strong> hoặc qua đêm để măng mềm. (Thay nước 1-2 lần để loại bỏ bụi bẩn).</li><li>Sau khi ngâm mềm, rửa sạch măng, cắt bỏ phần già, xé sợi vừa ăn.</li><li>Luộc măng <strong>2-3 lần</strong> (mỗi lần 15-20 phút), mỗi lần thay nước mới để loại bỏ chất đắng và độc tố. Sau đó, rửa lại với nước lạnh, để ráo.</li></ol><p><strong>Bước 2: Sơ chế gà</strong></p><ol><li>Gà rửa sạch, xát muối và gừng để khử mùi hôi, sau đó rửa lại với nước.</li><li>Chặt gà thành miếng vừa ăn.</li></ol><p><strong>Bước 3: Xào măng</strong></p><ol><li>Phi thơm hành khô với chút dầu ăn, cho măng vào xào sơ với <strong>1/2 thìa cà phê muối, 1/2 thìa cà phê bột ngọt</strong> để măng thấm gia vị.</li><li>Xào khoảng <strong>5 phút</strong>, sau đó tắt bếp.</li></ol><p><strong>Bước 4: Nấu canh</strong></p><ol><li>Đun sôi khoảng <strong>2 lít nước</strong>, cho gà vào nấu trước khoảng <strong>10-15 phút</strong> cho thịt săn lại.</li><li>Thêm măng đã xào vào nồi, hạ nhỏ lửa, hầm tiếp <strong>30-40 phút</strong> đến khi măng và gà mềm.</li><li>Nêm gia vị vừa ăn: <strong>nước mắm, bột ngọt, muối, tiêu</strong>.</li></ol><p><strong>Bước 5: Hoàn thành</strong></p><ul><li>Rắc hành lá, rau mùi lên trên rồi tắt bếp.</li><li>Múc canh ra tô, thưởng thức cùng cơm hoặc bún đều rất ngon.</li></ul><p><strong>Mẹo nhỏ:</strong></p><p>✔ <strong>Măng khô loại ngon</strong>: Nên chọn loại măng vàng, có mùi thơm nhẹ, không bị mốc.</p><p>✔ <strong>Hầm xương gà trước</strong>: Nếu muốn nước ngọt hơn, có thể hầm xương gà riêng rồi mới cho thịt gà vào nấu.</p><p>✔ <strong>Giảm mùi hôi gà</strong>: Luộc sơ gà với vài lát gừng rồi rửa sạch trước khi nấu.</p>",
+      "brief": "Canh măng khô có thể nấu với nhiều loại thịt khác nhau như gà, vịt, móng giò, sườn… Trong đó, phổ biến nhất là canh măng khô nấu gà – một món không thể thiếu trong các dịp Tết hay cỗ truyền thống.  Dưới đây là cách làm canh măng khô nấu gà thơm ngon, đậm đà.",
+      "image": "image1.png",
+      "dateCreate": "2025-02-11T06:26:19.825Z",
+      "status": true
+    },
+    {
+      "id": "1739247447144",
+      "title": "Cách làm canh măng khô nấu sườn thơm ngon, đậm đà",
+      "data": "<p><strong>1. Nguyên liệu chuẩn bị:</strong></p><p><strong>200g măng khô</strong></p><p>5<strong>00g sườn non</strong> (hoặc sườn sụn tùy thích)</p><p><strong>2 củ hành khô</strong></p><p><strong>1 nhánh gừng</strong></p><p><strong>Hành lá, rau mùi (ngò rí)</strong></p><p><strong>Gia vị:</strong> Muối, tiêu, bột ngọt, nước mắm, dầu ăn, hạt nêm</p><p><br></p><p><strong>2. Cách làm:</strong></p><p><strong>Bước 1: Sơ chế măng khô</strong></p><p>Ngâm măng khô trong nước sạch <strong>6-8 tiếng</strong> (hoặc qua đêm) để măng mềm. Thay nước 2-3 lần để loại bỏ bụi bẩn và chất bảo quản.</p><p>Rửa sạch măng, cắt bỏ phần già, xé sợi vừa ăn.</p><p>Luộc măng <strong>2-3 lần</strong> (mỗi lần 15-20 phút) để loại bỏ vị đắng và độc tố. Sau khi luộc xong, rửa lại với nước lạnh và để ráo.</p><p><br></p><p><strong>Bước 2: Sơ chế sườn</strong></p><p>Chặt sườn thành miếng vừa ăn, rửa sạch với nước muối loãng.</p><p>Chần sườn qua nước sôi khoảng <strong>3-5 phút</strong>, vớt ra rửa lại bằng nước sạch để loại bỏ bọt bẩn.</p><p><br></p><p><strong>Bước 3: Xào măng</strong></p><p>Phi thơm hành khô với dầu ăn, cho măng vào xào với <strong>1/2 thìa cà phê muối, 1/2 thìa cà phê bột ngọt</strong> để măng thấm gia vị.</p><p>Xào khoảng <strong>5-7 phút</strong>, sau đó tắt bếp.</p><p><br></p><p><strong>Bước 4: Nấu canh</strong></p><p>Đun sôi khoảng <strong>1.5 - 2 lít nước</strong>, cho sườn vào nấu trước khoảng <strong>20 phút</strong> cho mềm.</p><p>Tiếp tục cho măng đã xào vào nồi, hạ nhỏ lửa và hầm thêm <strong>30 phút</strong> cho măng và sườn thấm vị.</p><p>Nêm gia vị vừa ăn: <strong>nước mắm, muối, tiêu, bột ngọt, hạt nêm</strong>.</p><p><br></p><p><strong>Bước 5: Hoàn thành</strong></p><p>Rắc hành lá, rau mùi lên trên rồi tắt bếp.</p><p>Múc canh ra tô, thưởng thức cùng cơm nóng hoặc bún đều rất ngon.</p><p><strong>3. Mẹo nhỏ:</strong></p><p>✔ <strong>Chọn măng ngon:</strong> Măng khô có màu vàng nhạt, không có mùi lạ và không bị nấm mốc.</p><p>✔ <strong>Hầm sườn trước:</strong> Giúp nước dùng ngọt hơn và sườn mềm.</p><p>✔ <strong>Luộc măng nhiều lần:</strong> Để loại bỏ chất độc tự nhiên trong măng.</p>",
+      "brief": "Canh măng khô nấu sườn là một món ăn truyền thống thường xuất hiện trong mâm cỗ ngày Tết hay những bữa cơm gia đình. Nước dùng ngọt thanh, măng giòn dai kết hợp với sườn mềm tạo nên hương vị hấp dẫn.",
+      "image": "blog 4.jpg",
+      "dateCreate": "2025-02-13T09:42:50.580Z",
+      "status": true
+    },
+    {
+      "id": "1739247616182",
+      "title": "Lịch sử hình thành của bánh đậu xanh",
+      "data": "<p>Bánh đậu xanh là một đặc sản nổi tiếng của <strong>Hải Dương, Việt Nam</strong>, có lịch sử hình thành từ đầu thế kỷ 20. Loại bánh này không chỉ là một món ăn truyền thống mà còn gắn liền với một giai thoại thú vị về lòng yêu nước.</p><h4><strong>1. Nguồn gốc ra đời</strong></h4><p>Bánh đậu xanh xuất hiện vào khoảng <strong>những năm 1910</strong> tại Hải Dương. Ban đầu, đây chỉ là một món ăn dân dã do người dân sáng tạo từ các nguyên liệu đơn giản như đậu xanh, đường, mỡ lợn. Qua nhiều năm, công thức làm bánh dần được hoàn thiện và trở thành một món đặc sản địa phương.</p><h4><strong>2. Giai thoại về bánh đậu xanh và vua Bảo Đại</strong></h4><p>Một trong những câu chuyện nổi tiếng gắn với bánh đậu xanh là vào <strong>năm 1945</strong>, khi vua <strong>Bảo Đại</strong> (vị hoàng đế cuối cùng của triều Nguyễn) thưởng thức loại bánh này và khen ngợi hương vị độc đáo của nó. Theo lời kể, vua đã ban chiếu chỉ công nhận bánh đậu xanh là một <strong>loại bánh đặc sản tiến vua</strong>. Từ đó, bánh đậu xanh Hải Dương ngày càng nổi tiếng khắp cả nước.</p><h4><strong>3. Phát triển và thương hiệu hóa</strong></h4><ul><li>Sau khi được biết đến rộng rãi, nhiều cơ sở sản xuất bánh đậu xanh ra đời tại Hải Dương.</li><li>Các thương hiệu nổi tiếng như <strong>Bảo Hiên Rồng Vàng, Nguyên Hương, Gia Bảo</strong>… góp phần đưa bánh đậu xanh trở thành sản phẩm được bảo hộ thương hiệu của Hải Dương.</li><li>Ngày nay, bánh đậu xanh không chỉ được tiêu thụ trong nước mà còn xuất khẩu sang nhiều nước như Trung Quốc, Mỹ, Nhật Bản…</li></ul><h4><strong>4. Ý nghĩa văn hóa</strong></h4><ul><li>Bánh đậu xanh mang <strong>giá trị truyền thống</strong>, gắn liền với văn hóa ẩm thực Việt Nam.</li><li>Đây là món quà biếu phổ biến trong dịp lễ Tết, cúng gia tiên hoặc làm quà tặng bạn bè, người thân.</li><li>Thường được ăn kèm với <strong>chè xanh</strong> để tăng hương vị thơm ngon.</li></ul>",
+      "brief": "Bánh đậu xanh là một đặc sản nổi tiếng của Hải Dương, Việt Nam, có lịch sử hình thành từ đầu thế kỷ 20. Loại bánh này không chỉ là một món ăn truyền thống mà còn gắn liền với một giai thoại thú vị về lòng yêu nước.",
+      "image": "blog 5.jpg",
+      "dateCreate": "2025-02-11T06:26:54.947Z",
+      "status": true
+    },
+    {
+      "id": "1739247931554",
+      "title": "Ô Mai – Món Quà Vặt Truyền Thống Của Người Việt",
+      "data": "<h2><strong>1. Ô Mai Là Gì?</strong></h2><p>Ô mai là một loại mứt làm từ các loại trái cây như mơ, sấu, me, chanh, mận, cóc… bằng cách sấy khô, tẩm ướp với muối, đường, gừng hoặc cam thảo để tạo ra những hương vị đặc biệt. Tùy theo phương pháp chế biến mà ô mai có thể có vị mặn, ngọt, cay hay chua dịu.</p><p><br></p><h2><strong>2. Nguồn Gốc Và Lịch Sử Của Ô Mai</strong></h2><p>Ô mai có lịch sử lâu đời, xuất hiện từ thời xa xưa như một cách bảo quản trái cây trong những ngày không có tủ lạnh. Đặc biệt, ô mai Hà Nội nổi tiếng nhất với những thương hiệu lâu đời như ô mai Hàng Đường – nơi mà mỗi dịp Tết đến xuân về, người dân lại tấp nập tìm mua để làm quà biếu hoặc nhâm nhi bên tách trà nóng.</p><p>Không chỉ phổ biến ở Việt Nam, ô mai cũng xuất hiện trong văn hóa ẩm thực của Trung Quốc, Nhật Bản và Hàn Quốc. Tuy nhiên, ô mai Việt Nam mang nét đặc trưng riêng, kết hợp giữa <strong>vị mặn của muối, vị ngọt thanh của đường, vị cay của gừng, và hương thơm dịu của cam thảo.</strong></p><p><br></p><h2><strong>3. Các Loại Ô Mai Phổ Biến</strong></h2><p>🌿 <strong>Ô Mai Mơ:</strong> Chua dịu, thơm nhẹ, thường được dùng để ngâm nước uống hoặc trị ho.</p><p>🌿 <strong>Ô Mai Sấu:</strong> Đặc sản Hà Nội, vị chua nhẹ hòa cùng chút cay cay của gừng, rất được ưa chuộng vào mùa hè.</p><p>🌿 <strong>Ô Mai Mận:</strong> Có màu đỏ đẹp mắt, vị chua ngọt hòa quyện, thường có thêm lớp muối ớt bên ngoài.</p><p>🌿 <strong>Ô Mai Me:</strong> Chua ngọt, dẻo mềm, thường tẩm đường và gừng, rất thích hợp làm món ăn vặt.</p><p>🌿 <strong>Ô Mai Chanh:</strong> Thường dùng để trị ho, có vị chua thanh đặc trưng.</p><h2><strong>4. Vì Sao Ô Mai Lại Được Yêu Thích?</strong></h2><p>✔ <strong>Hương vị đa dạng:</strong> Ô mai có đủ vị chua, cay, mặn, ngọt, phù hợp với khẩu vị của nhiều người.</p><p>✔ <strong>Bảo quản lâu:</strong> Vì được sấy khô và tẩm gia vị, ô mai có thể để được lâu mà vẫn giữ nguyên hương vị.</p><p>✔ <strong>Tốt cho sức khỏe:</strong> Một số loại ô mai như ô mai mơ, ô mai chanh giúp làm dịu cổ họng, trị ho, kích thích tiêu hóa.</p><p>✔ <strong>Món quà ý nghĩa:</strong> Ô mai thường được chọn làm quà biếu trong các dịp lễ, Tết, thể hiện sự trân trọng và tình cảm ấm áp.</p><h2><strong>5. Cách Thưởng Thức Ô Mai Đúng Điệu</strong></h2><p>Một trong những cách tuyệt vời nhất để thưởng thức ô mai là <strong>ăn cùng với trà nóng</strong>. Sự kết hợp giữa vị chát của trà và vị chua ngọt của ô mai tạo nên một trải nghiệm ẩm thực tinh tế, vừa giúp thư giãn vừa tốt cho hệ tiêu hóa.</p><p>Ngoài ra, ô mai còn có thể được dùng trong nấu ăn, pha nước giải khát hoặc làm gia vị cho một số món ăn đặc trưng.</p><p><br></p><h2><strong>6. Mua Ô Mai Ở Đâu Ngon Nhất?</strong></h2><p>Nếu đến Hà Nội, bạn không thể bỏ qua những con phố bán ô mai nổi tiếng như <strong>phố Hàng Đường, Hàng Ngang, Hàng Đào.</strong> Một số thương hiệu ô mai lâu đời được yêu thích có thể kể đến như:</p><p>✅ Ô mai Hồng Lam</p><p>✅ Ô mai Gia Lợi</p><p>✅ Ô mai Tiến Thịnh</p><p>Hiện nay, bạn cũng có thể mua ô mai dễ dàng tại các cửa hàng đặc sản hoặc đặt mua online để thưởng thức hương vị truyền thống ngay tại nhà.</p>",
+      "brief": "Nhắc đến ô mai, người ta thường nghĩ ngay đến hương vị chua, cay, mặn, ngọt đặc trưng của món quà vặt đã gắn liền với tuổi thơ của nhiều thế hệ người Việt. Không chỉ đơn thuần là một món ăn chơi, ô mai còn mang trong mình những giá trị văn hóa và sức hút khó cưỡng.",
+      "image": "blog 6.jpg",
+      "dateCreate": "2025-02-11T04:25:31.554Z",
+      "status": true
+    }
+  ]
+}

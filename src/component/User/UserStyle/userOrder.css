@@ -1,0 +1,11 @@
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .modal-body img {
+    display: block;
+    margin: 0 auto;
+  }
+  
